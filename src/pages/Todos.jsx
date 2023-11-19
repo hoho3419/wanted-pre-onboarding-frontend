@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { styled } from 'styled-components';
 import { getTodos } from '../apis';
-import { TodoForm,TodoItem} from '../components';
+import { TodoForm,TodoItem } from '../components';
 
 const Todos = () => {
   const [todos,setTodos] = useState([]);
